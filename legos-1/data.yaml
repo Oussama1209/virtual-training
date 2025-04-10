@@ -1,0 +1,13 @@
+train: /Users/user/Downloads/virtualprototype/legos-1/train/images
+val: /Users/user/Downloads/virtualprototype/legos-1/valid/images
+test: /Users/user/Downloads/virtualprototype/legos-1/test/images
+
+nc: 1
+names: ['0']
+
+roboflow:
+  workspace: bbpds
+  project: legos-wplsn-qguoc
+  version: 1
+  license: CC BY 4.0
+  url: https://app.roboflow.com/bbpds/legos-wplsn-qguoc/1
