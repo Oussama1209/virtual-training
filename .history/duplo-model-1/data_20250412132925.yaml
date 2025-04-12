@@ -1,0 +1,13 @@
+train: /home/oussama/Documents/GitHub/virtual-training/duplo-model-1/train/images
+val: /duplo-model-1/valid/images
+test: /duplo-model-1/test/images
+
+nc: 1
+names: ['0']
+
+roboflow:
+  workspace: duplo-detection-model-for-world-domination-plan
+  project: duplo-model
+  version: 1
+  license: MIT
+  url: https://universe.roboflow.com/duplo-detection-model-for-world-domination-plan/duplo-model/dataset/1
